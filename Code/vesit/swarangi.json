@@ -1,0 +1,218 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+   "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+   "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+   "context_set": ""
+  },
+  {"tag": "fees",
+   "patterns": ["What are college fees?", "What is the fees for BE?","how much is the college fees", "fees"],
+   "responses": ["1 lakh 5 thousand to 1 lakh 8 thousand. But according to different categories it differs. please check the website for it."],
+   "context_set": ""
+  },
+  {"tag": "name",
+   "patterns": ["what is your name", "what should I call you", "whats your name?"],
+   "responses": ["You can call me Vesit bot.", "I'm vesit bot!", "I'm Tim aka Tech With vesit bot."],
+   "context_set": ""
+  },
+  {"tag": "scholarships",
+   "patterns": ["What scholarships are available?", "are there any scholarships", "does college provide any scholarships", "scholarships"],
+   "responses": [" Yes. For more details check out this link: https://ves.ac.in/vesit/scholarship/    "],
+   "context_set": ""
+  },
+  {"tag": "timings",
+   "patterns": ["what are the college timings", "how long does the college work", "what is the time for college","time of college","what are the college timings for first year students","What's the time of college?"],
+   "responses": ["First year timings: 10:25am-5:00pm  (morning shift) and 11:25am-6:00pm (afternoon shift) and for 2nd,3rd,4th year : 8:25am-2:00pm(morning shift)  and 11:25am-6:00pm (afternoon shift)"],
+   "context_set": ""
+  },
+  {"tag": "gym",
+   "patterns": ["does college have a gym","Does the college have it's own gym?"],
+   "responses": ["No, the college doesn't have its own gym."],
+   "context_set": ""
+  },
+  {"tag": "infrastructure",
+   "patterns": ["How is the infrastructure of college?"],
+   "responses": ["The college infrastructure consists of Library, Project room,Auditorium, Music room, canteen."],
+   "context_set": ""
+  },
+  {"tag": "FY documents",
+   "patterns": ["documents fy","What documents are required to be presented during admission?", "Documents required for first year admission"],
+   "responses": ["For First Year admission see https://vesitadmissions.ves.ac.in/Manual/REQIRED%20DOCUMENTS%20FOR%20FE.pdf"],
+   "context_set": ""
+  },
+  {"tag": "SY documents",
+   "patterns": ["documents sy","What documents are required to be presented during admission for DSE", "documents required for direct second year admission"],
+   "responses": ["For DSE admission see https://vesitadmissions.ves.ac.in/Manual/List%20of%20Required%20Documents%20for%20Direct%20Second%20Year.pdf"],
+   "context_set": ""
+  },
+  {"tag": "admission",
+   "patterns": ["What is the procedure to apply for admission?","admission procedure"],
+   "responses": ["By filling the online application provided on the admission website. please check out the given link https://vesitadmissions.ves.ac.in/"],
+   "context_set": ""
+  },
+  {"tag": "minority",
+   "patterns": ["Are there seats reserved for minority?","is there minority quota","Which quotas are applicable in the college?","Which quotas are applicable in the college?"],
+   "responses": ["51% sindhi minority quota."],
+   "context_set": ""
+  },
+  {"tag": "courses/branches",
+   "patterns": ["What are the courses offered?","What are the different branches","Which streams are available for engineering ??"],
+   "responses": ["There are 5 streams 1. Electronics  2. Computer Engineering 3. Electronics and Telecommunication 4.Instrumentation 5.Information Technology"],
+   "context_set": ""
+  },
+  {"tag": "companies",
+   "patterns": ["Which companies come for placement?","what about placement","college recruiters","what are your recent recruiters"],
+   "responses": ["Our recent recruiters are:Morgan Stanley, JP morgan, L&T, NOMURA, Capegemini, MAQ software, Emerson and many more . For more details check out the given site:https://vesittpc.ves.ac.in/recruiters"],
+   "context_set": ""
+  },
+  {"tag": "placements",
+   "patterns": ["What is this college's placement percentage?","how is the placement in college","placements","average package","highest package","lowest package","What is the average package for students selected in placement?","What is the highest possible package of students selected in placements? "],
+   "responses": ["98%. Almost 98% of the students in our course got placed. The highest salary package offered was 9 LPA, and the average salary package offered was 4.2 LPA, and the lowest salary package offered was 3.5 LPA."],
+   "context_set": ""
+  },
+  {"tag": "teaching_faculty",
+   "patterns": ["College teaching faculty","how are the teachers","How is the teaching faculty ?","teaching"],
+   "responses": ["The college is well known for its highly knowledgeable and immensely proficient teachers who conduct classes with full zeal and robustness. They have contributed greatly in imparting quality education at our Institute. Our teaching faculty includes 30 Ph.D. holders and 23 faculty pursuing Ph. D. Each department also takes initiative to organize “Faculty Development Programs” for helping the teachers to apprise their technical knowledge which in turn helps them to deal with their subject and the projects in a professional manner."],
+   "context_set": ""
+  },
+  {"tag": "rank",
+   "patterns": ["college ranking in city/state","where does the college stand in the state","ranking","what is the college ranking"],
+   "responses": ["VESIT has secured the 1st Rank in state of Maharashtra and 26th in India among the top 100 private Engineering Institutes as per Education World Rankings in 2018-19 "],
+   "context_set": ""
+  },
+  {"tag": "DD",
+   "patterns": ["What should be the name on the dd?"],
+   "responses": ["the name on the DD should be VESIT"],
+   "context_set": ""
+  },
+  {"tag": "cutoff/seats/intake",
+   "patterns": ["What is the last year cut off?","Cutoff for each branch","No of seats of each branch","what is the cut-off for diploma student for DSE  admission of computer branch","what is the intake","seats"],
+   "responses": [" please check out the given link for the details about intake, seats and cutoff https://vesitadmissions.ves.ac.in/"],
+   "context_set": ""
+  },
+  {"tag": "fests",
+   "patterns": ["What fest are organised by the college","what are the fests in college","are there any fests in college"],
+   "responses": ["The fests in the odd sem are : Prarambh ,Praxis(technical fest),Octaves  in even sem: Utsav, illusions."],
+   "context_set": ""
+  },
+  {"tag": "working_days",
+   "patterns": ["Number of working days in a week?","how long does college works in a week"],
+   "responses": ["6 days in a week"],
+   "context_set": ""
+  },
+  {"tag": "ACAP",
+   "patterns": ["What is ACAP process for vesit?","What is ACAP"],
+   "responses": ["ACAP is an admission process where you apply for the college through institute level."],
+   "context_set": ""
+  },
+  {"tag": "extra_curricular activities",
+   "patterns": ["What are the Extra Curricular activities ?","what are the other activities other than academics"],
+   "responses": ["The extra curricular activities are: Sports , Music ,Cultural, Social resposibility team, Vesit PhotoCircle"],
+   "context_set": ""
+  },
+  {"tag": "hostel_facilities",
+   "patterns": ["what are the Hostel Facilities","what all the hostel comprise of"],
+   "responses": ["The hostel facilites are: 1. Mess facilities which include morning breakfast, lunch, evening snacks, dinner   2. Recreation room with LED TV  3.Dining Hall  4.Outdoor and indoor games like badminton volleyball and carrom ,chess. "],
+   "context_set": ""
+  },
+  {"tag": "hostel_charges",
+   "patterns": ["What are the charges for hostel?","what is the cost of hostel","how much is the cost of hostel","payment for hostel","hostel payment"],
+   "responses": ["Total payment: Rs. 107,500 (without the Security deposit)  Rs.109,500 (for fresher, with Security deposit)"],
+   "context_set": ""
+  },
+  {"tag": "student_facilities",
+   "patterns": ["What facilities are provided to students?"],
+   "responses": [" Kindly go through this link for more details. https://ves.ac.in/vesit/about-us/facilities/"],
+   "context_set": ""
+  },
+  {"tag": "opportunities",
+   "patterns": ["What extra opportunities do this college provide?","Will there be opportunities to showcase your work"],
+   "responses": ["You can participate in various competitions and also go for industrial projects in senior years."],
+   "context_set": ""
+  },
+  {"tag": "workshops",
+   "patterns": ["Does the college have workshops?","are there any workshops","are workshops conducted"],
+   "responses": ["Yes. We do have workshops arranged by different societites and also there are workshops arranged for placement trainning."],
+   "context_set": ""
+  },
+  {"tag": "sports",
+   "patterns": ["Does the college promote sports?","spports"],
+   "responses": ["yes. We have sports festival wherein the students can participate and excel."],
+   "context_set": ""
+  },
+  {"tag": "start",
+   "patterns": ["When will the college begin ?","when will the college start"],
+   "responses": ["For the first year students and DSE(Direct Second Year) students college begins in August"],
+   "context_set": ""
+  },
+  {"tag": "marking_system",
+   "patterns": ["How does the marking system work?","how are the papers evaluated","how are the papers checked"],
+   "responses": ["The evaluation criteria is as per Mumbai university. "],
+   "context_set": ""
+  },
+  {"tag": "transport",
+   "patterns": ["How easily accessible is the College with public transport?","is there a bus stop nearby","is the station close to the college"],
+   "responses": ["There is a bus stop 'bhakti bhavan' about 10 mins walking distance. Also right in front of the college we have richshaw lined up to head towards kurla station. Also there is a monorail station about 10 mins walking distance."],
+   "context_set": ""
+  },
+  {"tag": "vesit",
+   "patterns": ["What makes this college special?","why should i choose vesit"],
+   "responses": ["VESIT is a lively college. It has various academic activities, co-curricular activities."],
+   "context_set": ""
+  },
+  {"tag": "labs",
+   "patterns": ["Are labs well equipped?","how are the labs"],
+   "responses": ["All the labs are equipped with latest technology."],
+   "context_set": ""
+  },
+  {"tag": "admission_hostel",
+   "patterns": ["What is the admission procedure for hostel?","how to get admission into hostel"],
+   "responses": ["The form would be provided when you visit the college for admission."],
+   "context_set": ""
+  },
+  {"tag": "internships",
+   "patterns": ["Information on Internships ","are their any internships","does college provide internships"],
+   "responses": ["VESIT provides internship oppurtunities to students during their summer and winter break"],
+   "context_set": ""
+  },
+  {"tag": "exams",
+   "patterns": ["when are the exams?","exams","when are the fisrt year exams"],
+   "responses": ["exams for odd sem are conducted in november-december and for even sem in may-june"],
+   "context_set": ""
+  },
+  {"tag": "divisions",
+   "patterns": ["How much classes is divided  into particular branch ?","how many divisions are there?"],
+   "responses": ["Majorly 2 divisions A and B . Only Computer branch has 3 divisions."],
+   "context_set": ""
+  },
+  {"tag": "payment",
+   "patterns": ["What are the Modes of payment?","what are the different ways to pay for admission"],
+   "responses": ["Mode of Payment :- Online/Offline via Payment Gateway i.e. payment by Debit card/Credit card/Net Banking/DD drawn in favour of “VESIT”, payable at Mumbai)."],
+   "context_set": ""
+  },
+  {"tag": "location",
+   "patterns": ["College location", "address of college", "where is vesit","where is it located"],
+   "responses": ["Hashu Adwani Memorial Complex, Collector's Colony, Chembur, Mumbai, Maharashtra 400074"],
+   "context_set": ""
+  },
+  {"tag": "canteen",
+    "patterns": ["is the canteen good?","does the college have canteen","canteen"],
+    "responses": ["The college canteen is good and comprises of almost all the dishes."],
+    "context_set": ""
+   },
+   {"tag": "library",
+    "patterns": ["how are the library services","how is the library","does the library have all the books"],
+    "responses": ["The college library consists of all the books required by the students."],
+    "context_set": ""
+   },
+  {"tag": "phone_no",
+    "patterns": ["how to contact college","contact no","phone","vesit contact no"],
+    "responses": ["Phone no:022 6153 2500"],
+    "context_set": ""
+   }
+]
+}
